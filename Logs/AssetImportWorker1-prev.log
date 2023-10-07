@@ -1,0 +1,868 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 14274 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Semeter_8/PRU221m/project_pru/RacingCar
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54597
+Successfully changed project path to: D:/Semeter_8/PRU221m/project_pru/RacingCar
+D:/Semeter_8/PRU221m/project_pru/RacingCar
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11064] Host "[IP] 192.168.1.175 [Port] 0 [Flags] 2 [Guid] 2439772401 [EditorId] 2439772401 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IQMUF2V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11064] Host "[IP] 192.168.1.175 [Port] 0 [Flags] 2 [Guid] 2439772401 [EditorId] 2439772401 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IQMUF2V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 17.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Semeter_8/PRU221m/project_pru/RacingCar/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 560X Series (ID=0x67ef)
+    Vendor:   ATI
+    VRAM:     4076 MB
+    Driver:   31.0.21029.1006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016501 seconds.
+- Loaded All Assemblies, in  0.682 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.444 seconds
+Domain Reload Profiling: 1123ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (269ms)
+		LoadAssemblies (197ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (266ms)
+			TypeCache.Refresh (264ms)
+				TypeCache.ScanAssembly (240ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (445ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (345ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.931 seconds
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.115 seconds
+Domain Reload Profiling: 2044ms
+	BeginReloadAssembly (241ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (509ms)
+		LoadAssemblies (419ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (191ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1116ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (894ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (175ms)
+			ProcessInitializeOnLoadAttributes (621ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3069 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3531.
+Memory consumption went from 113.7 MB to 113.6 MB.
+Total: 4.429200 ms (FindLiveObjects: 0.345200 ms CreateObjectMapping: 0.109000 ms MarkObjects: 3.810000 ms  DeleteObjects: 0.163600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78553.274962 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85bec50c8be757587fedfaade313866') in 0.004800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3531.
+Memory consumption went from 64.8 MB to 64.8 MB.
+Total: 3.975800 ms (FindLiveObjects: 0.333800 ms CreateObjectMapping: 0.136500 ms MarkObjects: 3.478900 ms  DeleteObjects: 0.025400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1172.719298 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Materials/RTC_Barrier_A.mat
+  artifactKey: Guid(ed5f95007294cbd4f9d3731a651e3a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Materials/RTC_Barrier_A.mat using Guid(ed5f95007294cbd4f9d3731a651e3a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d1a7369d122c0c6e60286b7a2b2449') in 0.184922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Materials/RTC_Barrier_A_Color_01.mat
+  artifactKey: Guid(2ebb6dae9d6256d43a5e61c95c8184b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Materials/RTC_Barrier_A_Color_01.mat using Guid(2ebb6dae9d6256d43a5e61c95c8184b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a80e1dae039d08b8a95007b3597b9d') in 0.015258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Materials/RTC_LaneLines.mat
+  artifactKey: Guid(b272ccb73d9e2594ea930e1ce7e17316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Materials/RTC_LaneLines.mat using Guid(b272ccb73d9e2594ea930e1ce7e17316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6b6b63572ceae4532f73f970939a0d') in 0.011666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Materials/RTC_Track_Stripe.mat
+  artifactKey: Guid(9481e9afd8ae89c47988f6384e94f036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Materials/RTC_Track_Stripe.mat using Guid(9481e9afd8ae89c47988f6384e94f036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c276bd025eea522f3269c9e35683f070') in 0.013591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Materials/RTC_Decal_01.mat
+  artifactKey: Guid(8efaf0d309e48b64390e07ac3f8ce968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Materials/RTC_Decal_01.mat using Guid(8efaf0d309e48b64390e07ac3f8ce968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a1e2b976eaac739475ca895dcbe48b') in 0.014496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 17.799019 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Barrier_A/RTC_BankLeft_TurnShort_Barrier_A.fbx
+  artifactKey: Guid(e44dc3f2e894fb049a4bb2705fab5218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Barrier_A/RTC_BankLeft_TurnShort_Barrier_A.fbx using Guid(e44dc3f2e894fb049a4bb2705fab5218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1987d0964124f6c914fa96a1d6edf42') in 0.470603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Barrier_A/RTC_TurnShort_Barrier_A.fbx
+  artifactKey: Guid(2a5829c5f202ed04ca5e0b4ca05f4492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Barrier_A/RTC_TurnShort_Barrier_A.fbx using Guid(2a5829c5f202ed04ca5e0b4ca05f4492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf21b5efacd9e9ec6f1a271dce19216') in 0.036511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Barrier_A/RTC_Ramp_Long_10m_Barrier_A.fbx
+  artifactKey: Guid(a711b8711b4d2f5479a87de77672e659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Barrier_A/RTC_Ramp_Long_10m_Barrier_A.fbx using Guid(a711b8711b4d2f5479a87de77672e659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825aed44f706b55a6800047bae3d0d9c') in 0.040573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Barrier_A/RTC_BankRight_Straight_Barrier_A.fbx
+  artifactKey: Guid(911253de213bea741b617bad1d4e0213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Barrier_A/RTC_BankRight_Straight_Barrier_A.fbx using Guid(911253de213bea741b617bad1d4e0213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bb662c4d2a1b4235bd6ad9e83362a7') in 0.036544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Barrier_A/RTC_StraightShort_Barrier_A.fbx
+  artifactKey: Guid(2a2a54d4773de584bbf24454b4b64c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Barrier_A/RTC_StraightShort_Barrier_A.fbx using Guid(2a2a54d4773de584bbf24454b4b64c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765c04a0b09b16a170382f583fd17144') in 0.040747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Barrier_A/RTC_TurnMedium_Barrier_A.fbx
+  artifactKey: Guid(625079c6996dfc149ace8c75e0517e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Barrier_A/RTC_TurnMedium_Barrier_A.fbx using Guid(625079c6996dfc149ace8c75e0517e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc9410fd69b93f6683d34ab6bc80276') in 0.035833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Barrier_A/RTC_ChicaneS_Left_Barrier_A.fbx
+  artifactKey: Guid(84fead4fea62eb548aa4759e30efac7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Barrier_A/RTC_ChicaneS_Left_Barrier_A.fbx using Guid(84fead4fea62eb548aa4759e30efac7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d7cfebc47ce1af36ee1b41b89d3520') in 0.038141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1417.188642 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Colliders/RTC_BankLeft_TurnShort_Barrier_A_Collider.fbx
+  artifactKey: Guid(8f31fc440055d7547b27df1e401ee1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Colliders/RTC_BankLeft_TurnShort_Barrier_A_Collider.fbx using Guid(8f31fc440055d7547b27df1e401ee1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db69038d37876b86cb4cbfce9e225bd') in 0.063252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Colliders/RTC_Straight_Barrier_A_Collider.fbx
+  artifactKey: Guid(348959b08969eeb4fbd1587ef5da3211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Colliders/RTC_Straight_Barrier_A_Collider.fbx using Guid(348959b08969eeb4fbd1587ef5da3211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c3c3128100e45bd808ad8f183fa6b6') in 0.042863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Colliders/RTC_BankRight_TurnShort_Barrier_A_Collider.fbx
+  artifactKey: Guid(47fa6ef8dfbe41649beb1033d14245d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Colliders/RTC_BankRight_TurnShort_Barrier_A_Collider.fbx using Guid(47fa6ef8dfbe41649beb1033d14245d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9104bdd2eb8e4d51e0d70015986ed8') in 0.038594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Colliders/RTC_ChicaneS_Right_Barrier_A_Collider.fbx
+  artifactKey: Guid(a122cf26fd29e0f43b9350fdc12ce444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Colliders/RTC_ChicaneS_Right_Barrier_A_Collider.fbx using Guid(a122cf26fd29e0f43b9350fdc12ce444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad62fd383ff37f6994970672bdeca24b') in 0.036071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Colliders/RTC_BankRight_Straight_Barrier_A_Collider.fbx
+  artifactKey: Guid(91c59da03c49a5c4890fe2f063c39208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Colliders/RTC_BankRight_Straight_Barrier_A_Collider.fbx using Guid(91c59da03c49a5c4890fe2f063c39208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53822662463436758db34c60ab690c6b') in 0.047700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Colliders/RTC_StraightLong_Barrier_A_Collider.fbx
+  artifactKey: Guid(87b16b67e7e3b8d4780f2612a0c4c93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Colliders/RTC_StraightLong_Barrier_A_Collider.fbx using Guid(87b16b67e7e3b8d4780f2612a0c4c93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910ccdd194680210360a2b56ba6e5dfd') in 0.044250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Colliders/RTC_TurnLong_Barrier_A_Collider.fbx
+  artifactKey: Guid(0cfcb6947cb19e144aa1ddf6a85ffc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Colliders/RTC_TurnLong_Barrier_A_Collider.fbx using Guid(0cfcb6947cb19e144aa1ddf6a85ffc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f7304e57aaf5a776a5d6acd345f2e1') in 0.045098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Colliders/RTC_Ramp_Long_10m_BarrierA_Collider.fbx
+  artifactKey: Guid(66021d565e975aa4da62c7d7a7a127b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Colliders/RTC_Ramp_Long_10m_BarrierA_Collider.fbx using Guid(66021d565e975aa4da62c7d7a7a127b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e93c7b3362fe30c1189661fcc23fbb') in 0.033938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.147330 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_BankLeft_Straight_Track.fbx
+  artifactKey: Guid(25be377acce761646a0cb7e0a4f2b112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_BankLeft_Straight_Track.fbx using Guid(25be377acce761646a0cb7e0a4f2b112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c77b40890a54652a87597c48c3ea45') in 0.033270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_BankRight_Straight_Track.fbx
+  artifactKey: Guid(3ed1db1561c24ea4aa06b9262d416e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_BankRight_Straight_Track.fbx using Guid(3ed1db1561c24ea4aa06b9262d416e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7200f9afba03a23fece0d4bf0ec46428') in 0.037278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_ChicaneS_Left_Track.fbx
+  artifactKey: Guid(afd1d74e3de878743a2f474e3cc7c6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_ChicaneS_Left_Track.fbx using Guid(afd1d74e3de878743a2f474e3cc7c6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfa407348aad32e6c0fcca614b152c8') in 0.034723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_StraightShort_Lanelines.fbx
+  artifactKey: Guid(9665076584633ba40b0bb90da36d1442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_StraightShort_Lanelines.fbx using Guid(9665076584633ba40b0bb90da36d1442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a70ea0c7760a31d07ba8b0e1a12b11') in 0.033320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_TurnShort_Lanelines.fbx
+  artifactKey: Guid(3da5f4037048646459420582a685c9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_TurnShort_Lanelines.fbx using Guid(3da5f4037048646459420582a685c9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b1398b07fc72a9fb056d8ec69e3a72') in 0.037489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_BankLeft_TurnShort_Lanelines.fbx
+  artifactKey: Guid(f9690fdff18462543880bbba47e20ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_BankLeft_TurnShort_Lanelines.fbx using Guid(f9690fdff18462543880bbba47e20ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3b79fd3ffb1361af14225e3212f038') in 0.038828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_Straight_Lanelines.fbx
+  artifactKey: Guid(21aacdfa05bd76140afde54fac73d004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_Straight_Lanelines.fbx using Guid(21aacdfa05bd76140afde54fac73d004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e3cbf0248345428755d159e87747cb') in 0.033262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_TurnU_Track.fbx
+  artifactKey: Guid(8733eb6d926c08040a9686e7e00c98cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_TurnU_Track.fbx using Guid(8733eb6d926c08040a9686e7e00c98cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f787d7b28cc4e11782d55c60cadba8') in 0.034226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_TurnMedium_Lanelines.fbx
+  artifactKey: Guid(d8633c3428c1b84469ad3908e4ca8a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_TurnMedium_Lanelines.fbx using Guid(d8633c3428c1b84469ad3908e4ca8a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776c2eedf361a04c15de9d500579380b') in 0.034484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_BankLeft_TurnShort_Track.fbx
+  artifactKey: Guid(c0ffeae04414f15468bafa24d9160336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_BankLeft_TurnShort_Track.fbx using Guid(c0ffeae04414f15468bafa24d9160336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69273271eb4bee265ca86afcc3cc9e1') in 0.031610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_TurnMedium_Track.fbx
+  artifactKey: Guid(c2b9ba56d42578a499523a84a9e856c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_TurnMedium_Track.fbx using Guid(c2b9ba56d42578a499523a84a9e856c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc17998255afd337759ccf66ccc3b40') in 0.032640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_TurnU_Lanelines.fbx
+  artifactKey: Guid(8413074d15d56e2408814a97594dba83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_TurnU_Lanelines.fbx using Guid(8413074d15d56e2408814a97594dba83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e4d155a60ded36f5e909c4464e4ce1') in 0.033275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_ChicaneS_Left_Lanelines.fbx
+  artifactKey: Guid(c56c65d31a25c9e4fa50a1baf6c7e60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_ChicaneS_Left_Lanelines.fbx using Guid(c56c65d31a25c9e4fa50a1baf6c7e60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ba764c21d294aa9a09e5efca8d99f5') in 0.032165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_BankRight_Straight_Lanelines.fbx
+  artifactKey: Guid(cbc8d459339afab4b9f5ed40b7f91f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_BankRight_Straight_Lanelines.fbx using Guid(cbc8d459339afab4b9f5ed40b7f91f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e1772e4d3d47bc81007fcc6c7fa725') in 0.033622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_ChicaneS_Right_Lanelines.fbx
+  artifactKey: Guid(3e12d1a4d04d7d348833000028dc19d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_ChicaneS_Right_Lanelines.fbx using Guid(3e12d1a4d04d7d348833000028dc19d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a52dac51fac41b632a4853f8ea5667') in 0.031896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_Ramp_5m_Track.fbx
+  artifactKey: Guid(f8a2ddcd773bd494193a048249d2c8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Track/RTC_Ramp_5m_Track.fbx using Guid(f8a2ddcd773bd494193a048249d2c8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c88a18ae7695dfc273f18f9728a130') in 0.036826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 47.607848 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_BankLeft_TurnShort.fbx
+  artifactKey: Guid(6d45649b0eb5e844a8972be1937292ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_BankLeft_TurnShort.fbx using Guid(6d45649b0eb5e844a8972be1937292ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bcf4ac1787915ccf7d0f099afea331') in 0.038181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_Strip_03.fbx
+  artifactKey: Guid(133f8f7383b1b1b43904369120e6ec8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_Strip_03.fbx using Guid(133f8f7383b1b1b43904369120e6ec8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fd5a5992ff2d15fc3fa73ebf8c23f1') in 0.033777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_BankRight_TurnShort.fbx
+  artifactKey: Guid(c8c0bb3b584079147bb832a019153251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_BankRight_TurnShort.fbx using Guid(c8c0bb3b584079147bb832a019153251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612a8f2d8a55cf8cdf7cf8e55d2d54c3') in 0.037411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_Ramp_5m.fbx
+  artifactKey: Guid(8a6cfbd1551dd6f4d8bdfde3f83969ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_Ramp_5m.fbx using Guid(8a6cfbd1551dd6f4d8bdfde3f83969ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a48a98ce28a1df11b574636ce0a8e6') in 0.032731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_Ramp_TurnLeft_5m.fbx
+  artifactKey: Guid(fc170bcba1e5d9c49a3b5d75f17ada30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_Ramp_TurnLeft_5m.fbx using Guid(fc170bcba1e5d9c49a3b5d75f17ada30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade6845a1e225fd167a2918b30887a07') in 0.033332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_Strip_01.fbx
+  artifactKey: Guid(65d799fc6fb49b445975e54cc60d1dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_Strip_01.fbx using Guid(65d799fc6fb49b445975e54cc60d1dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530b996999c7451fa2a6c5823f1271c8') in 0.031843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.650827 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_Lanelines/RTC_BankLeft_TurnShort_Lanelines.prefab
+  artifactKey: Guid(4bb30299ce40846449d09e5154307162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_Lanelines/RTC_BankLeft_TurnShort_Lanelines.prefab using Guid(4bb30299ce40846449d09e5154307162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d6586d7d0229050fd8aeddb2a4fb80') in 0.026875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_Lanelines/RTC_ChicaneS_Left_Lanelines.prefab
+  artifactKey: Guid(ae1bbc85b08b59740949b6f3283dc002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_Lanelines/RTC_ChicaneS_Left_Lanelines.prefab using Guid(ae1bbc85b08b59740949b6f3283dc002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ac2c7fb985580202350241ed8efa8e') in 0.026266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_Lanelines/RTC_TurnShort_Lanelines.prefab
+  artifactKey: Guid(70a16e68cf05c0e4db081e8dad12ff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_Lanelines/RTC_TurnShort_Lanelines.prefab using Guid(70a16e68cf05c0e4db081e8dad12ff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d4d1b8942b2505ec531e0401d5e539') in 0.024668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_Lanelines/RTC_BankRight_TurnShort_Lanelines.prefab
+  artifactKey: Guid(204e8d2fcc38fc048879a0858111153d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_Lanelines/RTC_BankRight_TurnShort_Lanelines.prefab using Guid(204e8d2fcc38fc048879a0858111153d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edcb8f9062c9b12eac5c61288b159ee') in 0.031274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_Lanelines/RTC_Ramp_Long_10m_Lanelines.prefab
+  artifactKey: Guid(0169f8aeb6515e04a91d39760be09758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_Lanelines/RTC_Ramp_Long_10m_Lanelines.prefab using Guid(0169f8aeb6515e04a91d39760be09758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f522dae72d394c30e3b3166296d128de') in 0.031351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_Lanelines/RTC_Ramp_5m_Lanelines.prefab
+  artifactKey: Guid(159fa31b4060a1a43a1355e0b7c8a5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_Lanelines/RTC_Ramp_5m_Lanelines.prefab using Guid(159fa31b4060a1a43a1355e0b7c8a5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c422bab33aa7ece4a73adcaae0f62c') in 0.032202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_Lanelines/RTC_StraightLong_Lanelines.prefab
+  artifactKey: Guid(dc722fc62d0936f40bd8ce7b40647b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_Lanelines/RTC_StraightLong_Lanelines.prefab using Guid(dc722fc62d0936f40bd8ce7b40647b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39217d5516ad2cd7ecd3539e58460b7f') in 0.029735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_Lanelines/RTC_TurnLong_Lanelines.prefab
+  artifactKey: Guid(697929c848ba85c4a91afb0adce3e789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_Lanelines/RTC_TurnLong_Lanelines.prefab using Guid(697929c848ba85c4a91afb0adce3e789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7f7b73e339c907a84b1c6fd2c34b86') in 0.034378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 203.837881 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Textures/BarrierA/RTC_BarrierA_Mask.png
+  artifactKey: Guid(c0607958297c988428971a6675d9c6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Textures/BarrierA/RTC_BarrierA_Mask.png using Guid(c0607958297c988428971a6675d9c6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee0087d914fded0d6581c6013f4565f') in 0.052798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 121.809050 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Textures/RTC_Track_Decals.png
+  artifactKey: Guid(0ae528f8a3dc05c49ba201ce47ae1b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Textures/RTC_Track_Decals.png using Guid(0ae528f8a3dc05c49ba201ce47ae1b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e60f6537e1bf5f612290c7dd23e40b') in 0.060567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.836549 seconds.
+  path: Assets/Textures/RTC_Track_Decals.png
+  artifactKey: Guid(2b40369d5d27aa742984eef8be61d093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/RTC_Track_Decals.png using Guid(2b40369d5d27aa742984eef8be61d093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bd302701e3173a2e7ad1f51cac4300') in 0.032896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures/RTC_Track_Normal.png
+  artifactKey: Guid(50f711f315fb5fb4596afcbac793e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/RTC_Track_Normal.png using Guid(50f711f315fb5fb4596afcbac793e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e246dff0207898ba90553238ba0d464') in 0.040980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1404.189989 seconds.
+  path: Assets/Textures/BarrierA/RTC_BarrierA_Mask.png
+  artifactKey: Guid(73ce54b311e7cf449a8ef2954927368b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/BarrierA/RTC_BarrierA_Mask.png using Guid(73ce54b311e7cf449a8ef2954927368b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55489e1552dd5bff962641b4ca0b6823') in 0.054188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/BarrierA/RTC_BarrierA_Normal.png
+  artifactKey: Guid(69c8fa99e30bc474387d689ad336b4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/BarrierA/RTC_BarrierA_Normal.png using Guid(69c8fa99e30bc474387d689ad336b4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac65a96677ba0018ae96a6d697c89b66') in 0.031976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 266.432789 seconds.
+  path: Assets/Textures/RTC_Track_Decals 1.png
+  artifactKey: Guid(21da19bbcb6e7544896131c0a4879fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/RTC_Track_Decals 1.png using Guid(21da19bbcb6e7544896131c0a4879fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7115dbe4d9d9187c67d18cff84ed731') in 0.037746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Textures/RTC_Track_Normal 1.png
+  artifactKey: Guid(1db7ad69626ea8e4a9da97f4f294f89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/RTC_Track_Normal 1.png using Guid(1db7ad69626ea8e4a9da97f4f294f89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42880a229a734ea595ec504c3798ef5') in 0.033617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.688111 seconds.
+  path: Assets/Textures/BarrierA 1/RTC_BarrierA_Albedo.png
+  artifactKey: Guid(afa1274e5cb8c074d8b2455477b705e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/BarrierA 1/RTC_BarrierA_Albedo.png using Guid(afa1274e5cb8c074d8b2455477b705e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05037358a7bb8add1d361d3f0f979959') in 0.060615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 471.461514 seconds.
+  path: Assets/Textures/RTC_Track_Decals 1.png
+  artifactKey: Guid(da246c046c3cb1948810d7d757985b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/RTC_Track_Decals 1.png using Guid(da246c046c3cb1948810d7d757985b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5948a32279ddf997a943867cde5d93b2') in 0.040790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 33.050223 seconds.
+  path: Assets/Textures/RTC_Track_Decals 1.png
+  artifactKey: Guid(2bc9d6fa5037f874c88be00efe2cca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/RTC_Track_Decals 1.png using Guid(2bc9d6fa5037f874c88be00efe2cca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f982b79d186dd639414e79072e6da4') in 0.032420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 27.433607 seconds.
+  path: Assets/Textures/concrete01.png
+  artifactKey: Guid(1ed4e4a4b83840a4fa4a877caf9bb280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/concrete01.png using Guid(1ed4e4a4b83840a4fa4a877caf9bb280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b625d586eb70cb7567bf014a2d1ae0bd') in 0.031573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Textures/Concrete02.png
+  artifactKey: Guid(af08e2e2b6ee3594a8cd689312b70e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Concrete02.png using Guid(af08e2e2b6ee3594a8cd689312b70e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75efea1186623824edfaf688dc98414') in 0.037209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/dirt_01.png
+  artifactKey: Guid(62e45f4f36d8ebe4eb77abb6ab0d64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/dirt_01.png using Guid(62e45f4f36d8ebe4eb77abb6ab0d64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2687594cb88323fbaf2b25050d66654a') in 0.034735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/pebbles01.png
+  artifactKey: Guid(c16cae7679e49164aa969d9a048ceeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/pebbles01.png using Guid(c16cae7679e49164aa969d9a048ceeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b2631930f82b2e0e5682c6741a61a6') in 0.033109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/Concrete03.png
+  artifactKey: Guid(5c0b94a9deaf1784db55df6f146ec7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Concrete03.png using Guid(5c0b94a9deaf1784db55df6f146ec7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89654154d8d012b579d4de79b6b71f5') in 0.030600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2411.358199 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/RTC_BankLeft_TurnShort.prefab
+  artifactKey: Guid(0fe01a3302575f545b0bc9045284593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/RTC_BankLeft_TurnShort.prefab using Guid(0fe01a3302575f545b0bc9045284593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfceb01cdd688081e6c74fd9d17aa83a') in 0.080023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/RTC_TurnU.prefab
+  artifactKey: Guid(7358cf81ccce2b64fa86bd1f594e2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/RTC_TurnU.prefab using Guid(7358cf81ccce2b64fa86bd1f594e2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbd97d7a180aca75fa1907d83987642') in 0.049877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/RTC_StraightShort.prefab
+  artifactKey: Guid(b8bc97ff711f08549be76024225f0d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/RTC_StraightShort.prefab using Guid(b8bc97ff711f08549be76024225f0d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f084771640fee6625c342aba37c51db') in 0.048650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/RTC_BankRight_Straight.prefab
+  artifactKey: Guid(3e565231fab307d48aedadef01c16385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/RTC_BankRight_Straight.prefab using Guid(3e565231fab307d48aedadef01c16385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027b1e8912a5c57622d42916d898e41e') in 0.038632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/RTC_ChicaneS_Right.prefab
+  artifactKey: Guid(ba6c46774ab4e3f4b9bfe25d87ffb9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/RTC_ChicaneS_Right.prefab using Guid(ba6c46774ab4e3f4b9bfe25d87ffb9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3653aa1044e1b311e48397581f4d4e') in 0.037710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/RTC_TurnLong.prefab
+  artifactKey: Guid(9a8b2b01aa2fc8746b3771430534fcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/RTC_TurnLong.prefab using Guid(9a8b2b01aa2fc8746b3771430534fcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a9f21b0c3afd38fe09f15dc1ba360f') in 0.039061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/RTC_Straight.prefab
+  artifactKey: Guid(abec626bf700fb64c9b38ce046237a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/RTC_Straight.prefab using Guid(abec626bf700fb64c9b38ce046237a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae9c5486f0a55948d16457624bf7089') in 0.039460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/RTC_StraightLong.prefab
+  artifactKey: Guid(cea6e5cd9de6ce74cb55b4b59c16f8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/RTC_StraightLong.prefab using Guid(cea6e5cd9de6ce74cb55b4b59c16f8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d375bf803444dcc4b001528735a964') in 0.039798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 1.065950 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/TrackVariant/RTC_BankLeft_TurnShort Variant.prefab
+  artifactKey: Guid(b2b8c1aa3425c224393a70eac0498ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/TrackVariant/RTC_BankLeft_TurnShort Variant.prefab using Guid(b2b8c1aa3425c224393a70eac0498ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3675c1877f6642e1a556ffe7b18e7147') in 0.039394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/TrackVariant/RTC_StraightLong Variant.prefab
+  artifactKey: Guid(94fcb8ce346908e4394be87b767d0a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/TrackVariant/RTC_StraightLong Variant.prefab using Guid(94fcb8ce346908e4394be87b767d0a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d20e1c6383ea588d957fc8add4ee51') in 0.047439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/TrackVariant/RTC_BankRight_TurnShort Variant.prefab
+  artifactKey: Guid(5f7e92eaf5c27fb41a13795e669b6d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/TrackVariant/RTC_BankRight_TurnShort Variant.prefab using Guid(5f7e92eaf5c27fb41a13795e669b6d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd091e86b5c6f0cc0091d625792874765') in 0.041798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/TrackVariant/RTC_TurnShort Variant.prefab
+  artifactKey: Guid(a7afdcfe18fbbaf4e9f1e0c4a60829f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/TrackVariant/RTC_TurnShort Variant.prefab using Guid(a7afdcfe18fbbaf4e9f1e0c4a60829f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875119fe69294d053641438a54ea3f81') in 0.046301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 168
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/TrackVariant/RTC_Ramp_5m Variant.prefab
+  artifactKey: Guid(f616bc0efb32e954a96572cf3559939b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/TrackVariant/RTC_Ramp_5m Variant.prefab using Guid(f616bc0efb32e954a96572cf3559939b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc090a220a5781290ad6a48bee600b1') in 0.045305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/TrackVariant/RTC_TurnLong Variant.prefab
+  artifactKey: Guid(28d8c0fcf953ee748b55dd3ec066901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/TrackVariant/RTC_TurnLong Variant.prefab using Guid(28d8c0fcf953ee748b55dd3ec066901f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18320df8f542dc428b8ea68ee6b1934e') in 0.056246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 207
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/TrackVariant/RTC_Ramp_TurnLeft_5m Variant.prefab
+  artifactKey: Guid(74f1e5fc913695e4890b60503af10d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/TrackVariant/RTC_Ramp_TurnLeft_5m Variant.prefab using Guid(74f1e5fc913695e4890b60503af10d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3509570d60c98d84d845fd5fb99fa856') in 0.056227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/TrackVariant/RTC_StraightShort Variant.prefab
+  artifactKey: Guid(6f0f9b2e06332944598aff53573a8258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Prefabs/RTC_TrackParts/TrackVariant/RTC_StraightShort Variant.prefab using Guid(6f0f9b2e06332944598aff53573a8258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0d37bcb02342845538354b9acf1d1d') in 0.045476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
