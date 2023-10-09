@@ -2,7 +2,11 @@ using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
+<<<<<<< HEAD
 namespace Scripts
+=======
+namespace UnityStandardAssets.Vehicles.Car
+>>>>>>> d05d3300c14262e5b246ec60d6551fbb64de30e7
 {
     [RequireComponent(typeof (CarController))]
     public class CarAIControl : MonoBehaviour
