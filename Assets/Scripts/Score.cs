@@ -16,4 +16,13 @@ public class Score : MonoBehaviour
         scoreText.text =  "Score: " + playScore.ToString();
     }
 
+    void SaveProgress()
+    {
+        PlayerPrefs.SetInt("Player Score", playScore);
+    }
+
+    void LoadProgress()
+    {
+        playScore = PlayerPrefs.GetInt("Player Score");
+    }
 }
